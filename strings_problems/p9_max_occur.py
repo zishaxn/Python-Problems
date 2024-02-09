@@ -14,6 +14,6 @@ def max_ocurr(string):
 
     return max_ocurr
 
-s = "JHSAABHHHHHVAA"
+s = "acccbbaba"
 
 print(max_ocurr(s))

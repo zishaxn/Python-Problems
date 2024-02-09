@@ -9,7 +9,7 @@
 # The character of the first string(str1) can be rearranged to form str2 and hence we can say that the given strings
 # are a permutation of each other.
 
-def is_permutation(stringIn, string2):
+def is_permutation(string1, string2):
     s1 = set(string1)
     s2 = set(string2)
     if len(s1) > len(s2) or len(s2) > len(s1):
@@ -20,8 +20,8 @@ def is_permutation(stringIn, string2):
     return True
 
 
-string1 = "ABCE"
+string1 = "ABCED"
 string2 = "CABED"
 
-print(is_permutation(string1, string2))
+# print(is_permutation(string1, string2))
 # is_permutation(string1,string2)
